@@ -1,0 +1,248 @@
+cd /f/#ITI.NET/CST/RealEstate/Real_Estate<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darak</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;600;700&family=Inter:wght@400;500;600&family=El+Messiri:wght@500;700&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="img\Untitled design (1).png" alt="">
+                <span>Darak</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="active">Listings</a>
+                <a href="#">Filters</a>
+                <a href="#">Agents</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <aside class="filters">
+                <h2>Filters</h2>
+
+                <div class="filter-group">
+                    <h3>Property type</h3>
+                    <div class="filter-options">
+                        <label><input type="checkbox"> House</label>
+                        <label><input type="checkbox"> Apartment</label>
+                        <label><input type="checkbox"> Studio</label>
+                        <label><input type="checkbox"> Villa</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Price Range</h3>
+                    <div class="filter-range">
+                        <div class="price-range">
+                            <span>E£ 5M</span>
+                            <span>E£ 100M </span>
+                        </div>
+                        <input type="range" min="5" max="100" step="2">
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Bedrooms</h3>
+                    <div class="filter-options">
+                        <label><input type="checkbox"> 1 Bed</label>
+                        <label><input type="checkbox"> 2 Beds</label>
+                        <label><input type="checkbox"> 3 Beds</label>
+                        <label><input type="checkbox"> 4+ Beds</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Amenities</h3>
+                    <div class="filter-options">
+                        <label><input type="checkbox"> Pool</label>
+                        <label><input type="checkbox"> Garage</label>
+                        <label><input type="checkbox"> Garden</label>
+                        <label><input type="checkbox"> Security</label>
+                    </div>
+                </div>
+
+                <button class="apply-btn">Apply Filters</button>
+                <button class="reset-btn" style="margin-top: 10px;">Reset</button>
+            </aside>
+
+            <section class="listings">
+                <div class="listing-header">
+                    <h2>4 Properties Found</h2>
+                    <div class="view-options">
+                        <button class="active"><i class="fas fa-th"></i></button>
+                        <button><i class="fas fa-list"></i></button>
+                    </div>
+                </div>
+
+                <div class="grid">
+                    <!-- Property 1 -->
+                    <div class="property-card">
+                        <div class="card-img">
+                            <img src="img\The-Crown-Palm-Hills-Villas-1.webp" alt="">
+                            <div class="badges">
+                                <span class="badge-new">New</span>
+                                <span class="badge-featured">Featured</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="price">E£35,000,000</div>
+                            <div class="address">
+                                <i class="fas fa-map-marker-alt"></i> 8 Palm Boulevard, Palm Hills October, Sheikh Zayed
+                                City
+                            </div>
+                            <div class="property-details">
+                                <div class="detail">
+                                    <i class="fas fa-bed"></i>
+                                    <span>4 Beds</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-bath"></i>
+                                    <span>3 Baths</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-ruler-combined"></i>
+                                    <span>300 m²</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="agent">
+                                    <img src="img\ma.jpg" class="agent-img"></img>
+                                    <span>Marwan Hassan</span>
+                                </div>
+                                <button class="view-btn">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Property 2 -->
+                    <div class="property-card">
+                        <div class="card-img">
+                            <img src="img\zamalec_apartment.jpg" alt="">
+                            <div class="badges">
+                                <span class="badge-featured">Featured</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="price">E£7,000,000</div>
+                            <div class="address">
+                                <i class="fas fa-map-marker-alt"></i> 22 Nile View Drive, Zamalek Island, Cairo
+                            </div>
+                            <div class="property-details">
+                                <div class="detail">
+                                    <i class="fas fa-bed"></i>
+                                    <span>3 Beds</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-bath"></i>
+                                    <span>2 Baths</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-ruler-combined"></i>
+                                    <span>180 m²</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="agent">
+                                    <img src="img\k.jpg" class="agent-img"></img>
+                                    <span>Kareem Ibrahim</span>
+                                </div>
+                                <button class="view-btn">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Property 3 -->
+                    <div class="property-card">
+                        <div class="card-img">
+                            <img src="img\626227858.jpg" alt="">
+                            <div class="badges">
+                                <span class="badge-new">New</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="price">E£15,000,000</div>
+                            <div class="address">
+                                <i class="fas fa-map-marker-alt"></i> 35 Emaar Avenue, Mivida Compound, Fifth
+                                Settlement, New Cairo
+                            </div>
+                            <div class="property-details">
+                                <div class="detail">
+                                    <i class="fas fa-bed"></i>
+                                    <span>5 Beds</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-bath"></i>
+                                    <span>3 Baths</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-ruler-combined"></i>
+                                    <span>250 m²</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="agent">
+                                    <img src="img\mae.jpg" class="agent-img"></img>
+                                    <span>Mostafa Ali</span>
+                                </div>
+                                <button class="view-btn">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Property 4 -->
+                    <div class="property-card">
+                        <div class="card-img">
+                            <img src="img\beach house.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <div class="price">E£25,000,000</div>
+                            <div class="address">
+                                <i class="fas fa-map-marker-alt"></i> 11 Lagoon Promenade, El Gouna, Hurghada
+                            </div>
+                            <div class="property-details">
+                                <div class="detail">
+                                    <i class="fas fa-bed"></i>
+                                    <span>4 Beds</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-bath"></i>
+                                    <span>4 Baths</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-ruler-combined"></i>
+                                    <span>300 m²</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="agent">
+                                    <img src="img\ms.jpg" class="agent-img"></img>
+                                    <span>Mohamed Salah</span>
+                                </div>
+                                <button class="view-btn">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
